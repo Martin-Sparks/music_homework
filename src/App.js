@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MusicContainer from "./containers/MusicContainer"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+   <MusicContainer/>
+
   );
 }
 
 export default App;
+
+// The MVP is to request the data, then display the list of songs with each song showing its chart position, title and artist. If you don't like music you can go to the link below and choose a different iTunes chart for books/movies etc.
